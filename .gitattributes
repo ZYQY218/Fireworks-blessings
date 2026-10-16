@@ -1,0 +1,15 @@
+* text=auto
+
+*.cpp text eol=crlf
+*.h text eol=crlf
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ttf binary
+*.TTF binary
+*.wav binary
+*.mp3 binary

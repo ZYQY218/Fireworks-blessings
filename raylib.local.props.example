@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Copy this file to raylib.local.props and set your raylib directory. -->
+    <RaylibRoot>C:\Libraries\raylib-6.0_win64_msvc16</RaylibRoot>
+  </PropertyGroup>
+</Project>

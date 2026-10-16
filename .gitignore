@@ -1,0 +1,51 @@
+# Visual Studio user files
+/raylib.local.props
+# Local backups and prepared upload archives
+/.local-backups/
+/upload/
+/backup.cpp
+/picture/flower.png
+/picture/flower1.png
+/picture/shoot.png
+/picture/shoot1.png
+/smoke-test.png
+
+# Local asset-generation notes
+/docs/launch-prompt.md
+/docs/fireworks-assets.md
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+wish/x64/
+wish/[Dd]ebug/
+wish/[Rr]elease/
+
+# Compiler and linker artifacts
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.recipe
+
+# Local binaries
+*.exe
+*.dll
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
