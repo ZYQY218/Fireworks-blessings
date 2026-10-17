@@ -2,6 +2,16 @@
 
 使用 C++17 和 raylib 制作的生日祝福动画，以烟花、星空、气球和背景音乐呈现祝福。
 
+## 下载运行
+
+适用于 Windows 10 / 11（x64），无需安装 Visual Studio 或配置 raylib。
+
+1. 打开 [最新发行版](https://github.com/ZYQY218/Fireworks-blessings/releases/latest)。
+2. 在 **Assets** 中下载 `Fireworks-blessings-v1.0.0-windows-x64.zip`（后续版本请选择对应的 `windows-x64.zip` 运行包）。
+3. 完整解压后双击 `wish.exe`，保留同目录中的 DLL 和资源文件夹。
+
+`Source code (zip)` 和 `Source code (tar.gz)` 是 GitHub 自动生成的源码包，不能直接运行。
+
 ## 运行效果
 
 ![生日烟花祝福运行截图](docs/preview.png)
@@ -23,7 +33,7 @@
 
 ## 自定义祝福
 
-复制 `config.ini.example` 为 `config.ini`，修改后保存为 UTF-8，重启程序生效：
+运行包已附带 `config.ini`，可直接修改；从源码运行时可复制 `config.ini.example` 为 `config.ini`。修改后保存为 UTF-8，重启程序生效：
 
 ```ini
 title=Happy Birthday
