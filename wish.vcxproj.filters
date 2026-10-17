@@ -19,4 +19,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <None Include="config.ini.example">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>

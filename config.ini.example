@@ -1,0 +1,10 @@
+# Copy to config.ini and save as UTF-8. Restart the app after editing.
+# Text is used literally: do not add quotes. Empty text hides that line.
+# Available characters depend on the bundled fonts.
+title=Happy Birthday
+subtitle=Breeze in heart, ease in life
+name=FRIEND
+
+# Master volume: 0.0 to 1.0; auto_fireworks: true or false.
+volume=0.5
+auto_fireworks=true

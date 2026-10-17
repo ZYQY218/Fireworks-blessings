@@ -152,11 +152,17 @@
     <ClCompile Include="firework.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="app_config.h" />
+    <None Include="config.ini.example" />
+  </ItemGroup>
+  <ItemGroup>
     <RuntimeAsset Include="font\**\*" />
     <RuntimeAsset Include="picture\bg.png" />
     <RuntimeAsset Include="picture\fireworks-generated-v1.png" />
     <RuntimeAsset Include="picture\launch-generated-v1.png" />
     <RuntimeAsset Include="sound\**\*" />
+    <RuntimeAsset Include="config.ini.example" />
+    <RuntimeAsset Include="config.ini" Condition="Exists('config.ini')" />
   </ItemGroup>
   <Target Name="ValidateRaylib" BeforeTargets="PrepareForBuild" Condition="!Exists('$(RaylibRoot)\include\raylib.h')">
     <Error Text="raylib was not found. Set the RAYLIB_DIR environment variable to the extracted raylib directory." />

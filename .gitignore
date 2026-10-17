@@ -1,5 +1,7 @@
 # Visual Studio user files
 /raylib.local.props
+/config.ini
+/screenshots/
 # Local backups and prepared upload archives
 /.local-backups/
 /upload/
@@ -9,6 +11,7 @@
 /picture/shoot.png
 /picture/shoot1.png
 /smoke-test.png
+/interaction-test.png
 
 # Local asset-generation notes
 /docs/launch-prompt.md
